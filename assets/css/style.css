@@ -1,0 +1,186 @@
+/*global settings for whole document. 
+Account for any border and padding in future values for an elements width and heigth*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Sets background to d9dcd6, and default font size to 1em*/
+body {
+    background-color: #d9dcd6;
+    font-size: 1em;
+}
+
+/*Sets padding of header to 20px thick in the color of 2a607c
+font will be in sans serif family, in white*/
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*Headings 1 will display horizontally at 3em */
+header h1 {
+    display: inline-block;
+    font-size: 3em;
+}
+
+/* Headings 1 in seo id will show in e2b46f*/
+header h1 #seo {
+    color: #eccd9d;
+}
+
+/*Padding for navigation links are set to 15px from the top, 
+with a margin of 20 px to the right, Navigation links are floated to the right
+font will be in sans serif family with 1.25 em font-size
+*/
+nav {
+    padding-top: 15px; 
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.25em;
+}
+
+/*removes the bullet for the navigation links*/
+nav ul {
+    list-style-type: none;
+}
+
+/*display of links will be inline block
+margin is set to the left by 25 px*/
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*Anchor tag font color is white,
+text decoration removes underline for link*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* This is the background image with height at 800px
+width 100%, margin is raised from the bottom by 25 px
+background size is set to cover entire container
+background position is centered in container. */
+.logo-photo{
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");/*background image used*/
+    background-size: cover;
+    background-position: center;
+}
+
+/*images are floating to the left, while text will flow around image
+25px margin space between image and text from the right*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*images are floating to the right, while text will flow around image
+25px margin space between image and text from the left*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*class content will take over 75% width of the container
+the different sections will be displayed in a column of blocks
+margin will shift the sections 20px from the left side
+*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*the headers within class content will have a margin of 20px from the bottom,
+separating it from the rest of the content.Font size of headings will be 2.25em*/
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 2.25em;
+}
+
+/*Class content-details will have 20px margin from the bottom
+Padding will be 50px all around
+height of section will be 300 px
+font family will be sans-serif
+background color will be #0072bb
+font color will be #fffff*/
+.content-details {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*image in class search-engine-optimization will be 200px high max*/
+.content-details img {
+    max-height: 200px;
+}
+
+/*nested inside "section .content"
+aside has margin of 20px from the right side
+padding is 20px all around section
+clear:both removes any previously associated floats from parents
+aside is then floated to the right side of the rest of the main content
+width of aside is 20% of container
+height is 100% of container
+font family is sans-serif
+background color set to #207daf*/
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #207daf;
+}
+
+/*class benefit will have a margin of 32px from the bottom
+color of font is #fffff*/
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*headings level 3 in benefit class has margin of 10px from the bottom
+ giving space between heading and image
+ text alignment is centered*/
+.benefit h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*image within benefit class will be displayed in block
+there is a 10px margin for top and bottom of image while left and right are automatially asigned
+image max width will be 150px*/
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Padding around footer will be 30px all around container
+font- family will be sans-serif
+text alignment is centered */
+footer {
+    padding: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*headings level 4 within footer will have a font size of 1.25 em*/
+footer h4 {
+    font-size: 1.25em;
+}
