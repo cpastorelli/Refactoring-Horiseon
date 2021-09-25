@@ -1,4 +1,4 @@
-# hw01-Horiseon-Social-Solutions
+# Horiseon Refactor
 
 ## About The Project
 This project was to showcase how to clean up code (AKA refactoring code). Sometimes, you will come across code that is full of div tags, has little to no commenting in their functions, or might have repeating code all over the place. This project was to show that you can change how the structure of both your HTML and CSS files can change on the inside, without showing any noticable changes on the outside. Also the practice and comfortability with making your very own README.md file!
@@ -15,7 +15,7 @@ I learned to enjoy and embrace changes to my properties and keep being curious.
 - Visual Studio Code
 
 ## Contact
-project link: (https://cpastorelli.github.io/hw01-Horiseon-Social-Solutions/)
+project link: (https://github.com/cpastorelli/Refactoring-Horiseon)
 
 ## Acknowledgements
 [Semantic HTML](https://www.internetingishard.com/html-and-css/semantic-html/)
