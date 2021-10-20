@@ -9,17 +9,22 @@ This problem allowed me to think critically and challenge how I can make the mos
 
 I learned to enjoy and embrace changes to my properties and keep being curious.
 
+![Horiseon Site](./assets/images/Horiseon-Images.png)
+
 ### Built With
 - HTML
 - CSS
 - Visual Studio Code
 
 ## Contact
-project link: (https://github.com/cpastorelli/Refactoring-Horiseon)
+project link: (https://cpastorelli.github.io/Refactoring-Horiseon/)
+
+## Licenses
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Acknowledgements
-[Semantic HTML](https://www.internetingishard.com/html-and-css/semantic-html/)
-[Mozilla.org](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside)
-[W3 Schools](https://w3schools.com/css/css_margin.asp)
-[Best-README-Template](https://github.com/othneildrew/Best-README-Template)
-[Professional README Files](https://coding-boot-camp.github.io/full-stack/-/professional-readme-guide)
+- [Semantic HTML](https://www.internetingishard.com/html-and-css/semantic-html/)
+- [Mozilla.org](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside)
+- [W3 Schools](https://w3schools.com/css/css_margin.asp)
+- [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+- [Professional README Files](https://coding-boot-camp.github.io/full-stack/-/professional-readme-guide)
