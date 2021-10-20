@@ -9,7 +9,7 @@ This problem allowed me to think critically and challenge how I can make the mos
 
 I learned to enjoy and embrace changes to my properties and keep being curious.
 
-![Horiseon Site](./assets/images/Horiseon-Images.png)
+![Horiseon Site](./assets/images/Horiseon-Image.png)
 
 ### Built With
 - HTML
